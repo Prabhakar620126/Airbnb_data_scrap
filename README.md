@@ -30,6 +30,7 @@ This scraper solves the problem by:
   pandas/csv      → for storing scraped data  
 
 ## 🔁 4. Scraping Workflow
+
 1️⃣ Send request to Airbnb search results
   (Example: https://www.airbnb.com/s/Delhi/homes)
 2️⃣ Parse HTML with BeautifulSoup
@@ -45,7 +46,7 @@ This scraper solves the problem by:
 4️⃣ Handle Pagination
   Scrapes multiple pages using updated URL parameters.
 5️⃣ Add Delay
-  time.sleep() ensures ethical scraping and prevents blocking.
+  time.sleep() ensures ethical scraping and prevents blocking
 6️⃣ Store Data
 ## 📥 5. Download Scraped Result
   ![download](https://github.com/Prabhakar620126/Airbnb_data_scrap/blob/main/Hotel_Data_of_Different_Place.xlsx)
