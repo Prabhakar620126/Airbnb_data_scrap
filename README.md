@@ -39,6 +39,7 @@ This scraper solves the problem by:
 1️⃣ Send request to Airbnb search results
 
   (Example: https://www.airbnb.com/s/Delhi/homes)
+  
 2️⃣ Parse HTML with BeautifulSoup
 
   Extract listing cards
@@ -64,7 +65,7 @@ This scraper solves the problem by:
 6️⃣ Store Data
 
 ## 📥 5. Download Scraped Result:
-  ! [download](https://github.com/Prabhakar620126/Airbnb_data_scrap/blob/main/Hotel_Data_of_Different_Place.xlsx)
+  ! [Download](https://github.com/Prabhakar620126/Airbnb_data_scrap/blob/main/Hotel_Data_of_Different_Place.xlsx)
   
 ## 🖼 6. Screenshots (Before & After Scraping)
   🔍 Before Scraping — Airbnb Website
@@ -77,7 +78,7 @@ This scraper solves the problem by:
 
 
 ## 📁 7. Python Code File
-[scraper.py](https://github.com/Prabhakar620126/Airbnb_data_scrap/blob/main/Airbnb_hotel_data.ipynb )
+[Scraper.py](https://github.com/Prabhakar620126/Airbnb_data_scrap/blob/main/Airbnb_hotel_data.ipynb )
 
 ## ⭐ 8. Features
 | Feature                     | Description                      |
