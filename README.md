@@ -17,10 +17,15 @@ Listing URL
 Airbnb does not allow users to directly download hotel/room data.
 Manual collection is slow and impossible at scale.
 This scraper solves the problem by:
+
   ✔ Automatically visiting Airbnb search pages
+  
   ✔ Extracting room/hotel details
+  
   ✔ Handling multiple pages
+  
   ✔ Saving data into a clean CSV
+  
   ✔ Preserving a real-customer-like appearance by using delay
 
 ## 🧰 3. Libraries & Tools Used
@@ -32,10 +37,14 @@ This scraper solves the problem by:
 ## 🔁 4. Scraping Workflow
 
 1️⃣ Send request to Airbnb search results
+
   (Example: https://www.airbnb.com/s/Delhi/homes)
 2️⃣ Parse HTML with BeautifulSoup
+
   Extract listing cards
+  
 3️⃣ Collect fields:
+
   - Title
   - Room Type
   - Price
@@ -43,16 +52,23 @@ This scraper solves the problem by:
   - Reviews Count
   - Location
   - Amenities
+  - 
 4️⃣ Handle Pagination
+
   Scrapes multiple pages using updated URL parameters.
+  
 5️⃣ Add Delay
+
   time.sleep() ensures ethical scraping and prevents blocking
+  
 6️⃣ Store Data
-## 📥 5. Download Scraped Result
-  ![download](https://github.com/Prabhakar620126/Airbnb_data_scrap/blob/main/Hotel_Data_of_Different_Place.xlsx)
+
+## 📥 5. Download Scraped Result:
+  ! [download](https://github.com/Prabhakar620126/Airbnb_data_scrap/blob/main/Hotel_Data_of_Different_Place.xlsx)
   
 ## 🖼 6. Screenshots (Before & After Scraping)
   🔍 Before Scraping — Airbnb Website
+  
   <img width="1919" height="886" alt="image" src="https://github.com/user-attachments/assets/79e26124-53ef-4702-bb56-48ed1f237970" />
 
   📊 After Scraping — CSV Output
@@ -61,7 +77,6 @@ This scraper solves the problem by:
 
 
 ## 📁 7. Python Code File
-
 [scraper.py](https://github.com/Prabhakar620126/Airbnb_data_scrap/blob/main/Airbnb_hotel_data.ipynb )
 
 ## ⭐ 8. Features
@@ -77,11 +92,15 @@ This scraper solves the problem by:
 ## ⚖️ 9. Ethical Disclaimer
 
 ✔ Only public data is scraped
+
 ✔ No login or authentication is bypassed
+
 ✔ Respectful delay is added
+
 ✔ For educational and research use only
 
 Airbnb content belongs to Airbnb Inc.
+
 Use responsibly.
 
 ## 🔮 10. Future Enhancements
